@@ -1,0 +1,46 @@
+@import 'config';
+
+.about-me-area{
+    background-color: #222;
+    border-bottom: 1px solid #999;
+    padding: 100px 0 40px 0;
+}
+
+.about-box{
+    h3{
+        color: $primary-color;
+    }
+    p{
+        color: #d9c3ff;
+        max-width: 850px;
+        margin: 0;
+    }
+}
+
+.skills-area{
+    padding: 40px 0;
+    h2{
+        width: fit-content;
+        margin: auto;
+        color: white;
+    }
+}
+
+.skill{
+    margin-top: 30px;
+    h5{
+        color: white;
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+}
+
+.skill-indicator{
+    width: 100%;
+    background-color: blueviolet;
+    .skill-indictor-inner{
+        width: 90%;
+        height: 20px;
+        background-color: $primary-color;
+    }
+}

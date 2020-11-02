@@ -1,0 +1,38 @@
+@import 'config';
+
+@media (max-width: 700px){
+    .welcome-inner{
+        h1, h4{
+            font-size: inherit;
+        }
+    }
+    .nav-list{
+        display: none;
+    }
+    .navIcon-hidden{
+        display: block;
+    }
+}
+
+.responsive-nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    visibility: hidden;
+    background-color: $primary-color;
+    z-index: 200;
+    transition: .3s;
+    li{
+        margin: 10px 0;
+        a{
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
